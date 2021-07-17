@@ -1,0 +1,46 @@
+body{
+    background-color: violet;
+    margin: 0;
+    padding: 0;
+
+}
+.in-form h2{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800px;
+    font-size: 50px;
+}
+.group{
+    padding: 10px;
+}
+.group label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+.group input{
+    border: none;
+    border-radius: 50px;
+    width: 320px;
+    height: 25px;
+}
+button{
+    margin-top: 40px;
+    height: 45px;
+    width: 90px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    background-color:grey;
+    cursor: pointer;
+}
+button:hover{
+    background-color:chocolate;
+}
+.err-msg{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
